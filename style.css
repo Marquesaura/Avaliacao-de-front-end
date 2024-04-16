@@ -61,10 +61,12 @@ header {
 .rodape p{
     font-size: 15px;
     font-family: sans-serif;
+    text-align: center;
 }
 .rodape a {
     font-size: 20px;
     font-family: sans-serif;
+    text-align: center;
 }
 .salao{
     width: 700px;
