@@ -1,0 +1,78 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background: #f2fedc;
+}
+header {
+    color: black;
+    background: #ffc4aa;
+    font-size: 35px;
+    font-family: sans-serif;
+    padding: 25px;
+    text-align: left;
+    align-items: inline;
+}
+.inicio{
+    text-align: center, right;
+    font-family: sans-serif;
+    margin-top: 45px;
+    font-weight: bold;
+}
+.inicio:hover{
+    color: #f2fedc;
+    font-size: 35px;
+    transition: 0.8s;
+}
+.inicio a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.inicio li{
+    text-decoration: none;
+    color: black;
+}
+.principal, .combo{
+    color: #ffc4aa;
+    background-color: #f2fedc;
+    font-size: 25px;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    box-sizing: border-box;
+}
+.logo{
+    width: 300px;
+    padding: 20px 0;
+   align-items: right;
+   margin-left: 1500px;
+   margin-top: -190px;
+}
+.home{
+    text-align: right;
+    color: black;
+    background: #ffc4aa;
+    font-family: 'Times New Roman', Times, serif;
+}
+.rodape{
+    background: #ffc4aa;
+    font-family: sans-serif;
+    padding: 20px;
+}
+.rodape p{
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.rodape a {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.salao{
+    width: 700px;
+    margin-right: 70%;
+   
+}
+.desconto:hover{
+    color: red;
+    font-size: 25px;
+    transition: 0.6s;
+}
