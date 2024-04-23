@@ -1,13 +1,15 @@
 body{
     font-family: 'Times New Roman', Times, serif;
     background: #f2fedc;
+	font-optical-sizing: auto;
+	font-weight: 200;
+	font-style: normal;
 }
 header {
     color: black;
     background: #ffc4aa;
     font-size: 35px;
-    font-family: sans-serif;
-    padding: 25px;
+    padding: 20px 0;
     text-align: left;
     align-items: inline;
 }
@@ -16,16 +18,20 @@ header {
     font-family: sans-serif;
     margin-top: 45px;
     font-weight: bold;
+    position: relative;
+	width: 940px;
+	margin: 0 auto;
 }
 .inicio:hover{
     color: #f2fedc;
     font-size: 35px;
-    transition: 0.8s;
+    transition: 0.3s;
 }
-.inicio a{
-    font-size: 20px;
+.inicio a, p{
+    font-size: 30px;
     text-decoration: none;
     color: black;
+    padding:70px;
 }
 .inicio li{
     text-decoration: none;
@@ -41,11 +47,11 @@ header {
     box-sizing: border-box;
 }
 .logo{
-    width: 300px;
+    width: 30px;
     padding: 20px 0;
    align-items: right;
    margin-left: 1500px;
-   margin-top: -190px;
+   margin-top: -100px;
 }
 .home{
     text-align: right;
@@ -53,18 +59,23 @@ header {
     background: #ffc4aa;
     font-family: 'Times New Roman', Times, serif;
 }
+footer {
+	text-align: center;
+	padding: 40px 0;
+}
 .rodape{
     background: #ffc4aa;
     font-family: sans-serif;
-    padding: 20px;
+    padding: 20px; 
+    text-align: center;
 }
 .rodape p{
     font-size: 15px;
     font-family: sans-serif;
-    text-align: center;
+   
 }
 .rodape a {
-    font-size: 20px;
+    font-size: 15px;
     font-family: sans-serif;
     text-align: center;
 }
@@ -73,8 +84,90 @@ header {
     margin-right: 70%;
    
 }
+.desconto{
+    width: 300px;
+    padding: 20px 0;
+   text-align: right;
+   margin-top: -190px;
+}
 .desconto:hover{
     color: red;
     font-size: 25px;
     transition: 0.6s;
 }
+img{
+    width: 300px;
+    padding: 20px 0;
+   align-items: right;
+   margin-left: 1000px;
+}
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+	transition: 0.8s all;
+}
+nav a {
+	
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+	
+}
+nav a:hover {
+	color: #001aff;
+	transition: 0.6s all;
+}
+.produtos {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+.produtos li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+}
+.produtos li:hover {
+	border-color: #C78C19;
+}
+.produtos li:active {
+	border-color: #088C19;	
+}
+.produtos li:hover h2 {
+	font-size: 34px;
+}
+.produtos h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+.produto-descricao {
+	font-size: 18px;
+}
+.produto-preco {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+footer {
+	text-align: center;
+	padding: 40px 0;
+}
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
+
